@@ -4,10 +4,12 @@
     margin: 0;
 }
 
+/* Setting background colour */
 body {
     background-color: #d9dcd6;
 }
 
+/* Set padding, background colour and fon-family for header */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,6 +17,7 @@ header {
     color: #ffffff;
 }
 
+/* adjusting position and style of title in header */
 header h1 {
     display: inline-block;
     font-size: 48px;
@@ -24,6 +27,7 @@ header h1 .seo {
     color: #d9dcd6;
 }
 
+/* adjusting position and style of the nav */
 header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -36,20 +40,24 @@ header nav ul {
     list-style-type: none;
 }
 
+/* makes nav items present as a row */
 header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* Removing underline on anchor tags */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* setting paragraph text size */
 p {
     font-size: 16px;
 }
 
+/* adjust size of background image/banner */
 .hero {
     height: 800px;
     width: 100%;
@@ -59,12 +67,14 @@ p {
     background-position: center;
 }
 
+/* adjust size and display of content section */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* styles the content cards and contents */
 .content-style {
     margin-bottom: 20px;
     padding: 50px;
@@ -83,6 +93,7 @@ p {
     font-size: 36px;
 }
 
+/* positions images in the content cards */
 .float-left {
     float: left;
     margin-right: 25px;
@@ -93,6 +104,7 @@ p {
     margin-left: 25px;
 }
 
+/* positions sidebar for Benefits content */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -104,6 +116,7 @@ p {
     background-color: #2589bd;
 }
 
+/* styles content in the benefits sidebar */
 .benefit-style {
     margin-bottom: 32px;
     color: #ffffff;
@@ -120,6 +133,7 @@ p {
     max-width: 150px;
 }
 
+/* position and font set for footer */
 footer {
     padding: 30px;
     clear: both;
@@ -127,6 +141,7 @@ footer {
     text-align: center;
 }
 
-footer h2 {
+/* sets font size of footer headline */
+footer h4 {
     font-size: 20px;
 }
